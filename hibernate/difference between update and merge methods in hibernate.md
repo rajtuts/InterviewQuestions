@@ -1,4 +1,4 @@
-explain the difference between update and merge methods in hibernate with example?
+***Explain the difference between update and merge methods in hibernate with example?***
 
 Here's a breakdown of the differences between `update` and `merge` methods in Hibernate, along with an example to illustrate their behavior:
 
@@ -40,7 +40,7 @@ Product mergedProduct = session.merge(detachedProduct);
 * Use `update` when you know the object is already managed and want a potentially faster update.
 * Use `merge` when you're unsure about the object's state or want to handle both detached and attached object updates in a single method.
 
-provide an example when NonUniqueObjectException throws when using hibernate update method?
+***Provide an example when NonUniqueObjectException throws when using hibernate update method?***
 
 
 Here's an example of how you might encounter a `NonUniqueObjectException` when using the `update` method in Hibernate:
