@@ -1,5 +1,5 @@
-** Q1 ) What is Hibernate, and why is it used in Java applications?**
-**Q2 ) What is Object-Relational Mapping (ORM), and how does Hibernate implement it?**\
+**Q1)What is Hibernate, and why is it used in Java applications?**
+**Q2) What is Object-Relational Mapping (ORM), and how does Hibernate implement it?**\
 **Q3 ) How do you configure Hibernate in a Java application?**\
 **Q4 ) Explain the advantages of using Hibernate over JDBC for database interactions.**\
 **Q5 ) What are the different states of an object in Hibernate, and how does Hibernate manage them?**\
