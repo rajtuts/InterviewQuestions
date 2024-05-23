@@ -1,5 +1,5 @@
 **What is completablefuture in java? how many ways we can use it?**
-`CompletableFuture` is a class in Java that was introduced in Java 8 as part of the `java.util.concurrent` package. It represents a future result of an asynchronous computation, providing a flexible and powerful way to handle asynchronous programming in Java.
+*`CompletableFuture` is a class in Java that was introduced in Java 8 as part of the `java.util.concurrent` package. It represents a future result of an asynchronous computation, providing a flexible and powerful way to handle asynchronous programming in Java.
 
 ### What is `CompletableFuture`?
 
