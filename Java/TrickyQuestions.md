@@ -17,6 +17,7 @@ Your best bet can be a Decorator pattern or maybe a Dependency Injection Pattern
 It's common that once you mention a particular design pattern, say Factory or Abstract Factory, Interviewer's next question would be, have you used this pattern in your project? So be ready with proper examples and explain why you choose a particular pattern.
 
 **Do you know about Open Closed Design Principle or Liskov Substitution Principle?**
+
 Design patterns are based on object-oriented SOLID design principles.
 
 
