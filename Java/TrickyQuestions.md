@@ -42,8 +42,6 @@ The java.util.WeakHashMap is a special Map implementation whose keys are the obj
 
 **How does the get method of HashMap work in Java?**
 
-Yes, this is still one of the most popular core Java questions for senior developer interviews. You can also expect this question on a telephonic round, followed by lots of follow-up questions.
-
 The short answer to this question is that HashMap is based upon hash table data structure and uses the hashCode() method to calculate hash code to find the bucket location on the underlying array and the equals() method to search the object in the same bucket in case of a collision.
 
 **Which Two Methods HashMap key Object Should Implement?**
