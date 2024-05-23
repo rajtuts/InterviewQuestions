@@ -49,3 +49,5 @@
 **Q49) How can you implement a soft delete mechanism using Hibernate?**\
 **Q50) What are the best practices for optimizing Hibernate performance and avoiding common pitfalls?**\
 **Q51) Optimizing Hibernate performance is crucial for ensuring efficient data access in Java applications. Here are some best practices and tips to help you achieve better performance and avoid common pitfalls?**\
+**Q52) Explain the difference between update and merge methods in hibernate with example?**
+
