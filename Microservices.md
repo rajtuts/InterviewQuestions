@@ -18,8 +18,7 @@
 3. Challenges in Microservices
 4. Difference between Microservices and SOA
 
-**Microservices**
-3. Microservices Interview Questions
+**3. Microservices Interview Questions**
 1. How will you define Microservices Architecture?
 2. What is Domain Driven Design?
 3. What is Bounded Context?
