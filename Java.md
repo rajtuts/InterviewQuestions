@@ -1,6 +1,6 @@
 **OBJECT ORIENTED PROGRAMMING INTERVIEW QUESTIONS**
-What is method overloading in OOP or Java? 
-What is the method overriding in OOP or Java? 
+What is method overloading in OOP or Java? \
+What is the method overriding in OOP or Java? \
 Is Java a pure object-oriented language? if not why? 
 The difference between method overloading and overriding? 
 Can we overload a static method in Java? 
