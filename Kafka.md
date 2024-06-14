@@ -458,149 +458,150 @@ The best choice between Kafka, RabbitMQ, and Pulsar depends on your specific req
     For multi-tenancy, geo-replication, and cloud-native deployments: Pulsar
     For existing Kafka ecosystem and mature tooling: Kafka
 
-**How to Solved Kafka Event Loss Problem By ‘Break’ing It Down?**\
-**Why is Kafka so fast? How does it work?**\
-**What is Apache Kafka, and what is its primary use case?**\
-**Explain the key components of Kafka.**\
-**What is the publish-subscribe messaging model in Kafka?**\
-**How does Kafka ensure fault tolerance and high availability?**\
-**What is a Kafka topic, and how is it different from a Kafka partition?**\
-**What are the key benefits of using Kafka in a real-time data streaming system?**\
-**How does Kafka handle data retention and cleanup?**\
-**What is the role of Kafka brokers in a Kafka cluster?**\
-**Explain the concept of a Kafka producer and its responsibilities.**\
-**What is the purpose of a Kafka consumer, and how does it subscribe to topics?**\
-**How are Kafka topics and partitions related, and why is partitioning important?**\
-**What is the significance of a Kafka partition key, and how does it affect data distribution?**\
-**How can you increase or decrease the number of partitions for a Kafka topic?**\
-**What is the role of a leader and replicas in a Kafka partition?**\
-**How does Kafka ensure fault tolerance for partitions through replication?**\
-**Explain the concept of in-sync replicas (ISR) in Kafka.**\
-**What happens when a Kafka broker or partition leader fails?**\
-**How can you achieve message ordering within a Kafka partition?**\
-**What is the difference between the acknowledgment modes "acks=0," "acks=1," and "acks=all" in Kafka producers?**\
-**How can you handle failures and retries in Kafka producers?**\
-**What is the purpose of a Kafka consumer group?**\
-**How does Kafka ensure load balancing among consumers in a consumer group?**\
-**What is the role of the consumer offset in Kafka?**\
-**How can you manually commit offsets in Kafka consumers?**\
-**What is the "auto.offset.reset" configuration for consumers, and how does it work?**\
-**Explain the concept of consumer lag in Kafka.**\
-**What is Kafka Connect, and how does it simplify data integration with Kafka?**\
-**How can you implement real-time data streaming using Kafka Streams?**\
-**What are the differences between Kafka Streams and Kafka Connect?**\
-**How can you perform transformations and filtering on data streams with Kafka Streams?**\
-**What is a state store in Kafka Streams, and how is it used?**\
-**How can you secure a Kafka cluster?**\
-**What are the authentication mechanisms available in Kafka for clients?**\
-**Explain the differences between SSL and SASL for securing Kafka.**\
-**How can you restrict access to specific topics and operations in Kafka?**\
-**What are some popular tools and technologies that integrate with Kafka?**\
-**How does Kafka integrate with Apache ZooKeeper, and what is its role?**\
-**Explain the concept of Kafka connectors and some common connectors used in the ecosystem.**\
-**What is the purpose of Kafka Streams and KSQL in the Kafka ecosystem?**\
-**How can you integrate Kafka with Apache Hadoop and Apache Spark?**\
-**What tools and techniques can be used for monitoring a Kafka cluster?**\
-**How can you diagnose and troubleshoot common issues in Kafka?**\
-**What is the purpose of the Kafka Control Center and Confluent Control Center?**\
-**How can you optimize the performance of a Kafka cluster?**\
-**What is the role of Apache Kafka in handling high-velocity data streams?**\
-**How does Kafka handle data compression and serialization?**\
-**What are some real-world use cases for Apache Kafka?**\
-**What are some best practices for designing a Kafka architecture?**\
-**How can you handle schema evolution and compatibility in Kafka?**\
-**How do you manage data retention and cleanup policies in Kafka?**\
-**How do we guarantee all messages are processed?**\
-**How do we avoid or handle duplicate messages?**\
-**Enlist the several components in Kafka.**\
-**Explain the role of the offset.**\
-**What is the role of the ZooKeeper in Kafka?**\
-**Is it possible to use Kafka without ZooKeeper?**\
-**What do you know about Partition in Kafka?**\
-**Why is Kafka technology significant to use?**\
-**What are main APIs of Kafka?**\
-**What are consumers or users? And What is a Consumer Group?**\
-**Explain the concept of Leader and Follower.**\
-**What ensures load balancing of the server in Kafka?**\
-**What roles do Replicas and the ISR play?**\
-**Why are Replications critical in Kafka?**\
-**If a Replica stays out of the ISR for a long time, what does it signify?**\
-**What is the process for starting a Kafka server?**\
-**In the Producer, when does QueueFullException occur?**\
-**Explain the role of the Kafka Producer API.**\
-**What is the main difference between Kafka and Flume?**\
-**Is Apache Kafka is a distributed streaming platform? if yes, what you can do with it?**\
-**What can you do with Kafka?**\
-**What is the purpose of retention period in Kafka cluster?**\
-**Explain the maximum size of a message that can be received by the Kafka?**\
-**What are the types of traditional method of message transfer?**\
-**What does ISR stand in Kafka environment?**\
-**What is Geo-Replication in Kafka?**\
-**Explain Multi-tenancy?**\
-**What is the role of Consumer API?**\
-**Explain the role of Streams API?**\
-**What is the role of Connector API?**\
-**Explain Producer?**\
-**Compare: RabbitMQ vs Apache Kafka**\
-**Compare: Traditional queuing systems vs Apache Kafka**\
-**Why Should we use Apache Kafka Cluster?**\
-**Explain the term “Log Anatomy”.**\
-**What is Data Log in Kafka?**\
-**Explain how to Tune Kafka for Optimal Performance.**\
-**State Disadvantages of Apache Kafka.**\
-**Enlist all Apache Kafka Operations.**\
-**Explain Apache Kafka Use Cases?**\
-**Some of the most notable applications of Kafka.**\
-**Features of Kafka Stream.**\
-**What do you mean by Stream Processing in Kafka?**\
-**What are the types of System tools?**\
-**What are Replication Tool and its types?**\
-**What is Importance of Java in Apache Kafka?**\
-**State one best feature of Kafka.**\
-**Explain the term “Topic Replication Factor”.**\
-**Explain some Kafka Streams real-time Use Cases.**\
-**What are Guarantees provided by Kafka?**\
-**Explain how you can get exactly once messaging from Kafka during data production?**\
-**Kafka monitoring tools?**\
-**Kafka security?**\
-**java annotations used for kafka**\
-**What is the latest version of Kafka?**\
-**Which latest version of Kafka can be used in production?**\
-**What are the differences between Kafka 3.4 and Kafka 2.8?**\
-**Kafka version 2.13 can be used without zookeeper for production?**\
-**You need to migrate data from a monolithic legacy system to Kafka for real-time analytics. How would you design and implement this data pipeline, ensuring minimal downtime and data consistency?**\
-**Your Kafka consumer application processes stock quotes in real-time. How would you handle duplicate quotes to ensure accurate financial calculations?**\
-**You're designing a Kafka cluster for a healthcare system that must be highly available. What strategies would you use to achieve fault tolerance and prevent data loss?**\
-**Your Kafka consumer group is struggling to keep up with a surge in data traffic. How would you scale the group horizontally or vertically to maintain efficient processing?**\
-**One of your Kafka consumers is lagging behind and not processing messages in real-time. How would you diagnose the issue and implement a solution to catch up?**\
-**How would you handle a scenario where a consumer is lagging behind the producer?**\
-**What would you do if a topic has too many partitions?**\
-**How would you handle a scenario where a broker goes down?**\
-**What would you do if a consumer is not able to keep up with the producer?**\
-**How would you handle a scenario where a consumer is not able to read messages from a partition?**\
-**What would you do if a producer is not able to send messages to a broker?**\
-**How would you handle a scenario where a consumer is not able to commit offsets?**\
-**What would you do if a topic is not able to handle the load?**\
-**How would you handle a scenario where a consumer is not able to connect to a broker?**\
-**What would you do if a producer is not able to send messages to a topic?**\
-**Describe a scenario where a producer sends messages to multiple topics simultaneously.***\
-**You need to build a high-throughput pipeline to ingest 1 million events per second from sensor data. How would you design your Kafka producers for optimal performance and reliability?**\
-**Your application generates sensitive financial data. How would you secure your Kafka producers to prevent unauthorized access or data leaks?**\
-**You encounter intermittent network failures that cause your producers to retry sending messages. How would you ensure at-least-once delivery guarantees without introducing duplicates?**\
-**Your consumer processing time varies depending on the data. How would you adjust your producer backpressure settings to prevent message buffer overflows?**\
-**You have a distributed application with multiple consumer instances needing to process all messages from a topic. How would you design your consumer groups for efficient load balancing?**\
-**Your streaming analytics process requires replaying historical data from a Kafka topic. How would you implement this functionality without impacting existing consumers?**\
-**You need to handle both fast and slow consumers within the same consumer group. How would you ensure fair allocation of messages without starving slower consumers?**\
-**Your consumer application experiences unexpected crashes. How would you design your consumers to automatically resume processing from the last committed offset?**\
-**You need to scale your Kafka cluster to handle increased data volume. How would you plan and execute this migration with minimal downtime?**\
-**A disk failure occurs on one of your Kafka brokers. How would you handle this incident and ensure data consistency across the cluster?**\
-**You witness high consumer lag for a specific topic. How would you diagnose the root cause and take corrective action?**\
-**Your security team identifies a potential vulnerability in your Kafka configuration. How would you assess the risk and implement a remediation plan?**\
-**You need to integrate Kafka with a legacy system that communicates via JMS. How would you achieve this integration while maintaining message fidelity and delivery semantics?**\
-**You want to use Kafka as a central messaging hub for various microservices in your cloud-native architecture. How would you design this messaging ecosystem for flexibility and scalability?**\
-**You need to move data from a Kafka topic to a data warehouse for long-term storage and analysis. How would you choose the appropriate tools and techniques for this data pipeline?**\
-**You need to build a real-time fraud detection system using Kafka streams. How would you design this system to detect fraudulent transactions with low latency and high accuracy?**\
-**You want to leverage Kafka for serverless event-driven applications. How would you integrate Kafka with AWS Lambda or Azure Functions for scalable and cost-effective processing?**\
-**You need to build a high-availability streaming platform that can handle multiple data sources and sink systems. How would you use Kafka Connect and other tools to achieve this goal?**\
-**You are migrating from an on-premises Kafka cluster to a cloud-based managed service. What are the key considerations and potential challenges during this migration?**\
-**You want to explore advanced Kafka features like KSQL or Debezium. How would you apply these technologies to solve specific data streaming problems in your environment?****\
+**KAFKA Interview Questions**
+1.	How to Solved Kafka Event Loss Problem By ‘Break’ing It Down?
+2.	Why is Kafka so fast? How does it work?
+3.	What is Apache Kafka, and what is its primary use case?
+4.	Explain the key components of Kafka.
+5.	What is the publish-subscribe messaging model in Kafka?
+6.	How does Kafka ensure fault tolerance and high availability?
+7.	What is a Kafka topic, and how is it different from a Kafka partition?
+8.	What are the key benefits of using Kafka in a real-time data streaming system?
+9.	How does Kafka handle data retention and cleanup?
+10.	What is the role of Kafka brokers in a Kafka cluster?
+11.	Explain the concept of a Kafka producer and its responsibilities.
+12.	What is the purpose of a Kafka consumer, and how does it subscribe to topics?
+13.	How are Kafka topics and partitions related, and why is partitioning important?
+14.	What is the significance of a Kafka partition key, and how does it affect data distribution?
+15.	How can you increase or decrease the number of partitions for a Kafka topic?
+16.	What is the role of a leader and replicas in a Kafka partition?
+17.	How does Kafka ensure fault tolerance for partitions through replication?
+18.	Explain the concept of in-sync replicas (ISR) in Kafka.
+19.	What happens when a Kafka broker or partition leader fails?
+20.	How can you achieve message ordering within a Kafka partition?
+21.	What is the difference between the acknowledgment modes "acks=0," "acks=1," and "acks=all" in Kafka producers?
+22.	How can you handle failures and retries in Kafka producers?
+23.	What is the purpose of a Kafka consumer group?
+24.	How does Kafka ensure load balancing among consumers in a consumer group?
+25.	What is the role of the consumer offset in Kafka?
+26.	How can you manually commit offsets in Kafka consumers?
+27.	What is the "auto.offset.reset" configuration for consumers, and how does it work?
+28.	Explain the concept of consumer lag in Kafka.
+29.	What is Kafka Connect, and how does it simplify data integration with Kafka?
+30.	How can you implement real-time data streaming using Kafka Streams?
+31.	What are the differences between Kafka Streams and Kafka Connect?
+32.	How can you perform transformations and filtering on data streams with Kafka Streams?
+33.	What is a state store in Kafka Streams, and how is it used?
+34.	How can you secure a Kafka cluster?
+35.	What are the authentication mechanisms available in Kafka for clients?
+36.	Explain the differences between SSL and SASL for securing Kafka.
+37.	How can you restrict access to specific topics and operations in Kafka?
+38.	What are some popular tools and technologies that integrate with Kafka?
+39.	How does Kafka integrate with Apache ZooKeeper, and what is its role?
+40.	Explain the concept of Kafka connectors and some common connectors used in the ecosystem.
+41.	What is the purpose of Kafka Streams and KSQL in the Kafka ecosystem?
+42.	How can you integrate Kafka with Apache Hadoop and Apache Spark?
+43.	What tools and techniques can be used for monitoring a Kafka cluster?
+44.	How can you diagnose and troubleshoot common issues in Kafka?
+45.	What is the purpose of the Kafka Control Center and Confluent Control Center?
+46.	How can you optimize the performance of a Kafka cluster?
+47.	What is the role of Apache Kafka in handling high-velocity data streams?
+48.	How does Kafka handle data compression and serialization?
+49.	What are some real-world use cases for Apache Kafka?
+50.	What are some best practices for designing a Kafka architecture?
+51.	How can you handle schema evolution and compatibility in Kafka?
+52.	How do you manage data retention and cleanup policies in Kafka?
+53.	How do we guarantee all messages are processed?
+54.	How do we avoid or handle duplicate messages?
+55.	Enlist the several components in Kafka.
+56.	Explain the role of the offset.
+57.	What is the role of the ZooKeeper in Kafka?
+58.	Is it possible to use Kafka without ZooKeeper?
+59.	What do you know about Partition in Kafka?
+60.	Why is Kafka technology significant to use?
+61.	What are main APIs of Kafka?
+62.	What are consumers or users? And What is a Consumer Group?
+63.	Explain the concept of Leader and Follower.
+64.	What ensures load balancing of the server in Kafka?
+65.	What roles do Replicas and the ISR play?
+66.	Why are Replications critical in Kafka?
+67.	If a Replica stays out of the ISR for a long time, what does it signify?
+68.	What is the process for starting a Kafka server?
+69.	In the Producer, when does QueueFullException occur?
+70.	Explain the role of the Kafka Producer API.
+71.	What is the main difference between Kafka and Flume?
+72.	Is Apache Kafka is a distributed streaming platform? if yes, what you can do with it?
+73.	What can you do with Kafka?
+74.	What is the purpose of retention period in Kafka cluster?
+75.	Explain the maximum size of a message that can be received by the Kafka?
+76.	What are the types of traditional method of message transfer?
+77.	What does ISR stand in Kafka environment?
+78.	What is Geo-Replication in Kafka?
+79.	Explain Multi-tenancy?
+80.	What is the role of Consumer API?
+81.	Explain the role of Streams API?
+82.	What is the role of Connector API?
+83.	Explain Producer?
+84.	Compare: RabbitMQ vs Apache Kafka
+85.	Compare: Traditional queuing systems vs Apache Kafka
+86.	Why Should we use Apache Kafka Cluster?
+87.	Explain the term “Log Anatomy”.
+88.	What is Data Log in Kafka?
+89.	Explain how to Tune Kafka for Optimal Performance.
+90.	State Disadvantages of Apache Kafka.
+91.	Enlist all Apache Kafka Operations.
+92.	Explain Apache Kafka Use Cases?
+93.	Some of the most notable applications of Kafka.
+94.	Features of Kafka Stream.
+95.	What do you mean by Stream Processing in Kafka?
+96.	What are the types of System tools?
+97.	What are Replication Tool and its types?
+98.	What is Importance of Java in Apache Kafka?
+99.	State one best feature of Kafka.
+100.	Explain the term “Topic Replication Factor”.
+101.	Explain some Kafka Streams real-time Use Cases.
+102.	What are Guarantees provided by Kafka?
+103.	Explain how you can get exactly once messaging from Kafka during data production?
+104.	Kafka monitoring tools?
+105.	Kafka security?
+106.	java annotations used for kafka
+107.	What is the latest version of Kafka?
+108.	Which latest version of Kafka can be used in production?
+109.	What are the differences between Kafka 3.4 and Kafka 2.8?
+110.	Kafka version 2.13 can be used without zookeeper for production?
+111.	You need to migrate data from a monolithic legacy system to Kafka for real-time analytics. How would you design and implement this data pipeline, ensuring minimal downtime and data consistency?
+112.	Your Kafka consumer application processes stock quotes in real-time. How would you handle duplicate quotes to ensure accurate financial calculations?
+113.	You're designing a Kafka cluster for a healthcare system that must be highly available. What strategies would you use to achieve fault tolerance and prevent data loss?
+114.	Your Kafka consumer group is struggling to keep up with a surge in data traffic. How would you scale the group horizontally or vertically to maintain efficient processing?
+115.	One of your Kafka consumers is lagging behind and not processing messages in real-time. How would you diagnose the issue and implement a solution to catch up?
+116.	How would you handle a scenario where a consumer is lagging behind the producer?
+117.	What would you do if a topic has too many partitions?
+118.	How would you handle a scenario where a broker goes down?
+119.	What would you do if a consumer is not able to keep up with the producer?
+120.	How would you handle a scenario where a consumer is not able to read messages from a partition?
+121.	What would you do if a producer is not able to send messages to a broker?
+122.	How would you handle a scenario where a consumer is not able to commit offsets?
+123.	What would you do if a topic is not able to handle the load?
+124.	How would you handle a scenario where a consumer is not able to connect to a broker?
+125.	What would you do if a producer is not able to send messages to a topic?
+126.	Describe a scenario where a producer sends messages to multiple topics simultaneously.
+127.	You need to build a high-throughput pipeline to ingest 1 million events per second from sensor data. How would you design your Kafka producers for optimal performance and reliability?
+128.	Your application generates sensitive financial data. How would you secure your Kafka producers to prevent unauthorized access or data leaks?
+129.	You encounter intermittent network failures that cause your producers to retry sending messages. How would you ensure at-least-once delivery guarantees without introducing duplicates?
+130.	Your consumer processing time varies depending on the data. How would you adjust your producer backpressure settings to prevent message buffer overflows?
+131.	You have a distributed application with multiple consumer instances needing to process all messages from a topic. How would you design your consumer groups for efficient load balancing?
+132.	Your streaming analytics process requires replaying historical data from a Kafka topic. How would you implement this functionality without impacting existing consumers?
+133.	You need to handle both fast and slow consumers within the same consumer group. How would you ensure fair allocation of messages without starving slower consumers?
+134.	Your consumer application experiences unexpected crashes. How would you design your consumers to automatically resume processing from the last committed offset?
+135.	You need to scale your Kafka cluster to handle increased data volume. How would you plan and execute this migration with minimal downtime?
+136.	A disk failure occurs on one of your Kafka brokers. How would you handle this incident and ensure data consistency across the cluster?
+137.	You witness high consumer lag for a specific topic. How would you diagnose the root cause and take corrective action?
+138.	Your security team identifies a potential vulnerability in your Kafka configuration. How would you assess the risk and implement a remediation plan?
+139.	You need to integrate Kafka with a legacy system that communicates via JMS. How would you achieve this integration while maintaining message fidelity and delivery semantics?
+140.	You want to use Kafka as a central messaging hub for various microservices in your cloud-native architecture. How would you design this messaging ecosystem for flexibility and scalability?
+141.	You need to move data from a Kafka topic to a data warehouse for long-term storage and analysis. How would you choose the appropriate tools and techniques for this data pipeline?
+142.	You need to build a real-time fraud detection system using Kafka streams. How would you design this system to detect fraudulent transactions with low latency and high accuracy?
+143.	You want to leverage Kafka for serverless event-driven applications. How would you integrate Kafka with AWS Lambda or Azure Functions for scalable and cost-effective processing?
+144.	You need to build a high-availability streaming platform that can handle multiple data sources and sink systems. How would you use Kafka Connect and other tools to achieve this goal?
+145.	You are migrating from an on-premises Kafka cluster to a cloud-based managed service. What are the key considerations and potential challenges during this migration?
+146.	You want to explore advanced Kafka features like KSQL or Debezium. How would you apply these technologies to solve specific data streaming problems in your environment?
