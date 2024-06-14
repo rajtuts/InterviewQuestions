@@ -43,7 +43,7 @@
 26. What is the power of a proxy object and where are the disadvantages? 
 27. What is the difference between @Autowired and @Inject annotation in Spring? 
 
-**Spring Bean Lifecycle **
+**Spring Bean Lifecycle**
 1. What is a bean in Spring Framework? 
 2. What is the default scope of bean in the Spring framework? 
 3. Do Spring singleton beans are thread- safe? 
@@ -70,7 +70,7 @@
 24. What can you reference using SpEL? 
 25. What is the difference between $ and # in @Value expressions? 
 
-**Aspect Oriented Programming (AOP) **
+**Aspect Oriented Programming (AOP)**
 1. What is the concept of AOP? 
 2. Which problem AOP solves? 
 3. What is a cross-cutting concern? 
@@ -89,7 +89,7 @@
 16. Can you name some popular Aspect-oriented programming libraries?
 17. What are the different types of Weaving which is available in AOP? 
 
-**Spring MVC **
+**Spring MVC**
 1. MVC is an abbreviation for a design pattern. What does it stand for and what is the idea behind it? 
 2. Do you need spring-mvc.jar in your classpath or is it part of spring-core? 
 3. What is the DispatcherServlet and what is it used for? 
@@ -120,7 +120,7 @@
 28. Difference between @RequestParam and @PathVariable in Spring MVC? 
 29. Difference between @Component, @Service, @Controller, and @Repository annotations in Spring MVC?
 
-**REST **
+**REST**
 1. What does REST stand for?
 2. What is a resource?
 3. What are safe REST operations?
@@ -144,7 +144,7 @@
 21. Does REST work with transport layer security (TLS)?
 22. Do you need Spring MVC in your classpath for developing RESTful Web Service?
 
-**Spring Boot Intro **
+**Spring Boot Intro**
 1. What is Spring Boot? Why should you use it?
 2. What is the advantage of using Spring Boot? 
 3. What is the difference between Spring Boot and Spring MVC?
@@ -168,7 +168,7 @@
 21. Where does Spring Boot look for application.properties file by default?
 22. How do you define profile specific property files?
 
-**Spring Boot Auto Configuration **
+**Spring Boot Auto Configuration**
 1. What is Spring Boot auto-configuration?
 2. How does auto-configuration work? How does it know what to configure?
 3. What are some common Spring Boot annotations?
@@ -182,7 +182,7 @@
 11. How to create your own auto-configuration in Spring Boot?
 12. What are the examples of @Conditional annotations? How are they used?
 
-**Spring Boot Starter **
+**Spring Boot Starter**
 1. What is starter dependency in Spring Boot? What is the advantage of it?
 2. How do you define properties in Spring Boot? Where?
 3. What does @SpringBootApplication annotation do?
@@ -194,7 +194,7 @@
 9. Which Spring Boot starter will you add to enable Spring boot testing and relevant libraries?
 10. What is Spring Boot Starter Parent? 
 
-**Spring Boot Actuator **
+**Spring Boot Actuator**
 1. What is the Spring Boot Actuator?
 2. What are the different ways Actuator provides to gain insight into a Spring Boot application?
 3. Why do you need to secure Spring Boot Actuator’s endpoints?
@@ -294,7 +294,7 @@
 21. How do you call a stored procedure by using the Spring framework?
 22. What do the JdbcTemplate and JmsTemplate class offer in Spring? 
 
-**Spring Cloud **
+**Spring Cloud**
 1. Explain Spring cloud? or, What is Spring Cloud? 
 2. What are the common features of Spring cloud? 
 3. Explain load balancing? or What is load balancing? 
