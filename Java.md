@@ -1,41 +1,41 @@
 **OBJECT ORIENTED PROGRAMMING INTERVIEW QUESTIONS**
-What is method overloading in OOP or Java? \
-What is the method overriding in OOP or Java? \
-Is Java a pure object-oriented language? if not why? 
-The difference between method overloading and overriding? 
-Can we overload a static method in Java? 
-Can we override the static method in Java? 
-Can we prevent overriding a method without using the final modifier? 
-Can we override a private method in Java? 
-What is the covariant method overriding in Java? 
-Can we change the return type of method to subclass while overriding? 
-Can we change the argument list of an overriding method? 
-Can we override a method that throws runtime exception without throws clause? 
-How do you call a superclass version of an overriding method in a subclass? 
-Can we override a non-static method as static in Java? 
-Can we override the final method in Java? 
-Can we have a non-abstract method inside an interface? 
-What is the default method of Java 8? 
-What is an abstract class in Java? 
-What is an interface in Java? What is the real user of an interface? 
-The difference between Abstract class and interface? 
-Can we make a class abstract without an abstract method? 
-Can we make a class both final and abstract at the same time?
-Can we overload or override the main method in Java?
-What is the difference between Polymorphism, Overloading, and Overriding?
-Can an interface extend more than one interface in Java?
-Can a class extend more than one class in Java?
-What is the difference between abstraction and polymorphism in Java?
+1.	What is method overloading in OOP or Java? 
+2.	What is the method overriding in OOP or Java? 
+3.	Is Java a pure object-oriented language? if not why? 
+4.	The difference between method overloading and overriding? 
+5.	Can we overload a static method in Java? 
+6.	Can we override the static method in Java? 
+7.	Can we prevent overriding a method without using the final modifier? 
+8.	Can we override a private method in Java? 
+9.	What is the covariant method overriding in Java? 
+10.	Can we change the return type of method to subclass while overriding? 
+11.	Can we change the argument list of an overriding method? 
+12.	Can we override a method that throws runtime exception without throws clause? 
+13.	How do you call a superclass version of an overriding method in a subclass? 
+14.	Can we override a non-static method as static in Java? 
+15.	Can we override the final method in Java? 
+16.	Can we have a non-abstract method inside an interface? 
+17.	What is the default method of Java 8? 
+18.	What is an abstract class in Java? 
+19.	What is an interface in Java? What is the real user of an interface? 
+20.	The difference between Abstract class and interface? 
+21.	Can we make a class abstract without an abstract method? 
+22.	Can we make a class both final and abstract at the same time?
+23.	Can we overload or override the main method in Java?
+24.	What is the difference between Polymorphism, Overloading, and Overriding?
+25.	Can an interface extend more than one interface in Java?
+26.	Can a class extend more than one class in Java?
+27.	What is the difference between abstraction and polymorphism in Java?
 
 **OBJECT-ORIENTED DESIGN PRINCIPLE AND PATTERN INTERVIEW QUESTIONS**
-What problem is solved by the Strategy pattern in Java? 
-Which OOP concept Decorator design Pattern is based upon? 
-When to use the Singleton design pattern in Java? 
-What is the difference between State and Strategy Patterns? 
-What is the difference between Association, Aggregation, and Composition in OOP? 
-What is the difference between Decorator, Proxy and Adapter pattern in Java? 
-What is the 5 objects oriented design principle from SOLID? 
-What is the difference between Composition and Inheritance in OOP? 
+1.	What problem is solved by the Strategy pattern in Java? 
+2.	Which OOP concept Decorator design Pattern is based upon? 
+3.	When to use the Singleton design pattern in Java? 
+4.	What is the difference between State and Strategy Patterns? 
+5.	What is the difference between Association, Aggregation, and Composition in OOP? 
+6.	What is the difference between Decorator, Proxy and Adapter pattern in Java? 
+7.	What is the 5 objects oriented design principle from SOLID? 
+8.	What is the difference between Composition and Inheritance in OOP? 
 
 **INTERVIEW QUESTIONS FROM TELEPHONIC ROUND**
 1) Difference between String, StringBuffer and StringBuilder in Java? 
