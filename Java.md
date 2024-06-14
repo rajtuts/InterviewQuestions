@@ -197,20 +197,20 @@ Iterator, which one you will use while removing elements during iteration?
 18. What is the difference between Abstraction and Encapsulation in Java? 
 
 **GARBAGE COLLECTION INTERVIEW QUESTIONS**
-1 - What is the structure of Java Heap? What is Perm Gen space in Heap? 
-2 - How do you identify minor and major garbage collection in Java?
-3 - What is the difference between ParNew and DefNew Young Generation Garbage collector? 
-4 - How do you find GC resulted due to calling System.gc()? 
-5 - What is the difference between Serial and Throughput Garbage collectors? 
-6 – When does an Object becomes eligible for Garbage collection in Java? 
-7 - What is finalize method in Java ? When does Garbage collector calls finalize method in Java? 
-8 - If Object A has reference to Object B and Object B refer to Object A, 
-	apart from that there is no live reference to either object A or B, Does they
-	are eligible to Garbage collection? 
-9 - Can we force the Garbage collector to run at any time? 
-10 - Does Garbage collection occur in permanent generation space in JVM? 
-11 : How to you monitor garbage collection activities? 110
-12: Look at below Garbage collection output and answer following
+1.	What is the structure of Java Heap? What is Perm Gen space in Heap? 
+2.	How do you identify minor and major garbage collection in Java?
+3.	What is the difference between ParNew and DefNew Young Generation Garbage collector? 
+4.	How do you find GC resulted due to calling System.gc()? 
+5.	What is the difference between Serial and Throughput Garbage collectors? 
+6.	When does an Object becomes eligible for Garbage collection in Java? 
+7.	What is finalize method in Java ? When does Garbage collector calls finalize method in Java? 
+8.	If Object A has reference to Object B and Object B refer to Object A, 
+apart from that there is no live reference to either object A or B, Does they
+are eligible to Garbage collection? 
+9.	Can we force the Garbage collector to run at any time? 
+10.	Does Garbage collection occur in permanent generation space in JVM? 
+11.	How to you monitor garbage collection activities? 110
+12.	Look at below Garbage collection output and answer following
 
 **GENERICS INTERVIEWS QUESTIONS**
 1. What is Generics in Java ? What are advantages of using Generics?
@@ -222,35 +222,35 @@ Iterator, which one you will use while removing elements during iteration?
 8. Can you pass List<String> to a method which accepts List<Object> 
 9. Can we use Generics with Array? 
 10. How can you suppress unchecked warning in Java ? 
-Difference between List<Object> and raw type List in Java? 
-Difference between List<?> and List<Object> in Java? 
-Difference between List<String> and raw type List. 
+11. Difference between List<Object> and raw type List in Java? 
+12. Difference between List<?> and List<Object> in Java? 
+13. Difference between List<String> and raw type List. 
 
 **JDBC INTERVIEW QUESTIONS**
-1: What is JDBC? 
-2: What are the main steps in java to make JDBC connectivity? 
-3: What is the mean of “dirty read“ in database? 
-4: What is the 2 phase commit? 
-5: What are different types of Statement? 
-6: How cursor works in scrollable result set? 
-7: What is connection pooling?
-8: What do you mean by cold backup, hot backup? 
-9: What are the locking system in JDBC 
-10: Does the JDBC-ODBC Bridge support multiple concurrent open statements per connection? 
+1.	What is JDBC? 
+2.	What are the main steps in java to make JDBC connectivity? 
+3.	What is the mean of “dirty read“ in database? 
+4.	What is the 2 phase commit? 
+5.	What are different types of Statement? 
+6.	How cursor works in scrollable result set? 
+7.	What is connection pooling?
+8.	What do you mean by cold backup, hot backup? 
+9.	What are the locking system in JDBC 
+10.	Does the JDBC-ODBC Bridge support multiple concurrent open statements per connection? 
 
 **STREAM AND FUNCTIONAL PROGRAMMING INTERVIEW QUESTIONS**
-1. What is the difference between Collection and Stream? 
-2. What does the map() function do? why you use it? 
-3. What does the filter() method do? when you use it? 
-4. What does the flatmap() function do? why you need it?
-5. What is difference between flatMap() and map() functions? 
-6. What is the difference between intermediate and terminal operations on Stream? 
-7. What does the peek() method do? When should you use it? 
-8. What do you mean by saying Stream is lazy? 
-9. What is a functional interface in Java 8? 
-10. What is the difference between a normal and functional interface in Java?
-11. What is the difference between the findFirst() and findAny() method? 
-12. What is a Predicate interface? 
-13. What are Supplier and Consumer Functional interface? 
-14. Can you convert an array to Stream? How? 
-15. What is the parallel Stream? How can you get a parallel stream from a List?
+1.	What is the difference between Collection and Stream? 
+2.	What does the map() function do? why you use it? 
+3.	What does the filter() method do? when you use it? 
+4.	What does the flatmap() function do? why you need it?
+5.	What is difference between flatMap() and map() functions? 
+6.	What is the difference between intermediate and terminal operations on Stream? 
+7.	What does the peek() method do? When should you use it? 
+8.	What do you mean by saying Stream is lazy? 
+9.	What is a functional interface in Java 8? 
+10.	What is the difference between a normal and functional interface in Java?
+11.	What is the difference between the findFirst() and findAny() method? 
+12.	What is a Predicate interface? 
+13.	What are Supplier and Consumer Functional interface? 
+14.	Can you convert an array to Stream? How? 
+15.	What is the parallel Stream? How can you get a parallel stream from a List?
